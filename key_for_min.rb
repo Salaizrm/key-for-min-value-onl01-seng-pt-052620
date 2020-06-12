@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
   name_hash.collect do |v, k|
-    v
+    v.length < 4
   end
 
 end
